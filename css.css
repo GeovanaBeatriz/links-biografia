@@ -5,9 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 600px){
-
-
 .body{
     width: 100vw;
     height: 100vh;
@@ -16,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    
 }
 
 .header-div{
@@ -25,6 +23,62 @@
     align-items: center;
 
 }
+
+.img-perfil{
+    border-radius: 50%;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12%;
+}
+
+.rep-div{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    padding-top: 10px;
+    margin-top: 1rem;
+    display: flex;   
+    font-weight: bold;
+    justify-content: center;  
+    gap: 20px;
+    letter-spacing: .5px;
+}
+
+.img-social-media{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rep-div:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    font-size: .8rem;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 600px){
 
 .header-div h1{
     font-size: large;
@@ -39,12 +93,7 @@
     width: 30%;
 }
 
-.main-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .main-a{
     justify-content: center;
@@ -69,10 +118,7 @@
     height: 1.5rem;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 .footer{
     font-size: .8rem;
