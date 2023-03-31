@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .body{
@@ -97,7 +98,7 @@ a{
 
 .main-a{
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .rep-div{
@@ -128,6 +129,7 @@ a{
 .footer{
     font-size: .8rem;
     text-align: center;
+    font-weight: bold;
 }
 
 }
